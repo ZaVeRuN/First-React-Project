@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: poppins;
+}
+
+
+nav {
+    display: flex;
+    background-color: #21222A;
+    align-items: center; 
+}
+
+.nav--h2, .nav--h3 {
+    margin: 0;
+    padding: 10px;
+}
+
+.nav--h2 {
+    margin-right: auto;
+    color: #61DAFB;
+}
+
+.nav--h3 {
+    color: white;
+}
+
+nav > img {
+    padding: 5px;
+}
+
+.content {
+    display: block;
+    align-items: center;
+    margin: auto;
+    padding: 20px 100px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    background-image: url(../src/background.png);
+    background-repeat: no-repeat;
+}
+
+.content--h1 {
+    margin: 0;
+}
+
+.content--ul > li::marker {
+font-size: 1.1rem;
+color: #61DAFB;
+}
