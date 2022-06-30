@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <div>
             <small>
-                Footer from Edgar
+                footer for social media buttons
             </small>
         </div>
     )

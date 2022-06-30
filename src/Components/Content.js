@@ -1,16 +1,14 @@
 import React from "react";
 
+
 export default function Content() {
     return(
         <div className="content">
-            <h1 className="content--h1">React content</h1>
-            <ul className="content--ul">
-                <li>Static React Page</li>
-                <li>Doing some CSS</li>
-                <li>Navigation bar Component</li>
-                <li>Content Component</li>
-                <li>Footer Component</li>
-            </ul>
+            <img className="hero--img" src={'/img/Group 77.png'} alt="hero" />
+            <h1 className="hero--header">Online Experiences</h1>
+            <p className="hero--text">Join unique interactive activities led by
+                one-of-a-kind hosts-all without leaving home.
+            </p>
         </div>
     )
 }
