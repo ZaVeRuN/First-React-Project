@@ -20,20 +20,20 @@
    vertical-align: middle;
    max-width: max-content;
 }
-.cards-list {
-    display: flex !important;
-    flex-direction: column;
+.card-list {
+    display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
     gap: 20px;
     overflow-x: auto;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .card {
     width: 175px;
     font-size: 12px;
     flex: 0 0 auto;         /* ADD */
-    display: flex;          /* ADD */
+    display: flex;          
     flex-direction: column; /* ADD */
 }
 
