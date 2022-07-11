@@ -26,19 +26,28 @@
     flex-wrap: nowrap;
     gap: 20px;
     overflow-x: auto;
+    vertical-align: middle;
+   max-width: max-content;
     /* position: absolute; */
 }
 
 .card {
     width: 175px;
+    height: auto;
+    /* margin: 2px; */
     font-size: 12px;
-    flex: 0 0 auto;         /* ADD */
+    flex: 0 0 auto;         
     display: flex;          
-    flex-direction: column; /* ADD */
+    flex-direction: column;
+    vertical-align: middle;
+    max-width: max-content;
 }
 
 .card--image {
+    box-sizing: border-box;
     width: 100%;
+    height: auto;
+    margin: 3px;
     border-radius: 9px;
     margin-bottom: 9px;
 }
